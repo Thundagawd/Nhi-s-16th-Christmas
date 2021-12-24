@@ -1,0 +1,285 @@
+h1{
+    position: absolute;
+    color: #b02;
+    max-width: 450px;
+    font-size: 80px;
+    border: 15px solid #13925d;
+    text-align: center;
+    left:35%;
+    top: 150px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h2{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    color: #b02;
+    left:575px;
+    top:680px;
+    font-size: 60px;
+    border: 15px solid #13925d;
+}
+body{
+    background-color: #fc0
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+#rudolf{
+    position:absolute;
+    width: 300px;
+    right: 100px;
+    top: 200px;
+}
+#backgroundSnow1{
+    position: relative;
+    transform: rotate(270deg);
+    left:-20px;
+    top:-70px;
+}
+#backgroundSnow2{
+    position: relative;
+    transform: rotate(270deg);
+    right:30px;
+    top:-70px;
+    z-index: 2;
+}
+#backgroundSnow3{
+    position: absolute;
+    transform: rotate(270deg);
+    right:0px;
+    top:-70px;
+    z-index: 2;
+}
+#tree1{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top:220px;
+    left:360px;
+}
+#tree2{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top:220px;
+    right:355px;
+}
+#happyShiba{
+    position: absolute;
+    height: 350px;
+    right:195px;
+    top:650px;
+    margin:auto;
+    border-radius: 30%;
+}
+#Santa{
+    position: absolute;
+    width:350px;
+    top:180px;
+    left:35px;
+}
+.Max{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 30%;
+}
+#Max1{
+    left:200px;
+    top:650px;
+}
+.christmasLine{
+    position: absolute;
+    width: 700px;
+    height:150px;
+    left:370px;
+}
+#line1{
+    top:480px;
+}
+#line2{
+    top:1000px;
+}
+#line3{
+    top:2390px;
+}
+#line4{
+    top:3000px;
+}
+#topPageButton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 250px;
+  margin-top:500px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Sentence1{
+    text-align: center;
+    margin: auto;
+    margin-top:700px;
+}
+#lion{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border: 5px solid black;
+    left:500px;
+    top:1370px;
+}
+#smiling_bach{
+   position: absolute;
+   width:200px;
+   height:200px;
+   right:500px;
+   top:1370px;
+   border: 5px solid black;
+}
+#toThis{
+    margin:auto;
+    margin-top: 450px;
+}
+#Nhi1{
+    position: absolute;
+    width: 155px;
+    height: 235px;
+    top:1900px;
+    right:550px;
+    border: 5px solid black;
+}
+#Bach1{
+    position: absolute;
+    width: 160px;
+    height: 235px;
+    top:1900px;
+    left:550px;
+    border: 5px solid black;
+}
+#HeartContainer{
+    position: absolute;
+    width: 800px;
+    height: 700px;
+    top:1700px;
+    left:330px;
+}
+#Fireworks{
+    position: absolute;
+    width:270px;
+    height:auto;
+    top:2100px;
+    left:180px;
+}
+#Fireworks2{
+    position: absolute;
+    width:270px;
+    height:auto;
+    top:2100px;
+    right:180px;
+}
+#catAndDog{
+    margin:auto;
+    margin-top: 780px;
+}
+.catdog{
+    position: absolute;
+    border-radius: 30%;
+    border: 10px solid red;
+    height: 200px;
+}
+#Max2{
+    top: 2650px;
+    right: 530px;
+    width: 150px;
+}
+#Sun1{
+    position: absolute;
+    border-radius: 30%;
+    border: 10px solid red;
+    height: 200px; 
+    top: 2650px;
+    left: 540px;
+    width: 150px;
+}
+#babyMax{
+    position: absolute;
+    border-radius: 30%;
+    border: 10px solid red;
+    height: 200px; 
+    top: 2650px;
+    right: 540px;
+    width: 150px;
+}
+#Mix1{
+    position: absolute;
+    border-radius: 30%;
+    border: 15px solid #13925d;
+    height: 300px; 
+    top: 3500px;
+    left: 640px;
+    width: 200px;
+}
+#mix{
+    position: absolute;
+    top:3800px;
+    right:300px;
+}
+#last{
+    text-align: center;
+    margin: auto;
+    margin-top:700px;
+}
+@keyframes wave {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+  }
+.wave {
+    float: left;
+    margin: 20px;
+    animation: wave  ease-in-out 0.5s infinite alternate;
+    transform-origin: center -36px;
+}
+.wave:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.wave figcaption {
+    text-align: center;
+}
+.wave:after{
+    content: '';
+    position: absolute;
+    width: 20px; 
+    height: 20px;
+    border: 1.5px solid #ffffff;
+    top: -10px; 
+    left: 50%;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(35deg);
+}
+.wave:before{
+    content: '';
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    height: 44px;
+    width: 47px;
+    background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    z-index: 16;
+}
+.wave img {
+    border: 5px solid #f8f8f8;
+    display: block;
+    width: 200px;
+    height: 250px;
+}
+
+
+
